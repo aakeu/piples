@@ -1,0 +1,22 @@
+.navy{
+    display: flex;
+    /*Justify content takes the content to the center or where you want
+    end= push to the right end
+    start= push to the left start
+    space-around= will distribute the white space around the blocks
+    space-between= will distribute the space btw the available items*/
+    justify-content: center;
+}
+
+
+.item {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*margin left and right in the case of in for naturally block display turn to inline*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

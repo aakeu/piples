@@ -1,0 +1,18 @@
+div{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 25px 0;
+    background: #e5383b;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px black;
+}
+
+/*hover class helps to bring about effect on the div when hover on*/
+div:hover {
+    /*this two background and font goes together but background imag is seperate*/
+    background: #ba181b;
+    font-size: 40px;
+    background-image: url(giphy.webp);
+}

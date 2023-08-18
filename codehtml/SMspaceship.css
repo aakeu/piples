@@ -1,0 +1,42 @@
+
+body {
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    margin: 0%;
+    /*this is use when you get link of font from google*/
+}
+
+.seniorman{
+    background-image: url("images/a9ca2f2a2f8f65e78766dc1b2e01e044.gif");
+    background-size: cover;
+    padding: 10px 0px 40px 0px; 
+}
+
+#can{
+    /*this is a hack to use for website in situation 
+    illumination wouldn't allow text to show properly
+    improving readability*/
+    text-shadow: 0px 0px 4px black;
+
+}
+
+.you {
+padding: 8px 5px 8px 5px;
+background-color: white;
+font-family: inherit;
+color: #82a5ca;
+font-weight: 900;
+/*to make the botton inherit the font*/
+}
+
+.cta {
+    border-bottom: 2px solid white;
+}
+
+#mainlogo { 
+    width: 60px;
+
+}
