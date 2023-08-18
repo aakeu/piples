@@ -1,0 +1,133 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    background-color: #a2d2ff;
+    color: #ffffff;
+/*this help to highlight a specifiy text and give it occupied space a
+benfitting colour*/
+ display:flex;
+   flex-direction: column;
+   align-items: center;
+    /*you can use the liner-gradient to let a page fade from top to down*/
+background: linear-gradient(lightskyblue, #EFB0C9)
+}
+
+#me {
+border-radius: 50%;
+width: 150px;
+border: 6px solid #EFB0C9;
+}
+
+/*this is a text selector*/
+h1, h2, h4 {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bdayage {
+    background-color: #EFB0C9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0px 10px 0px;
+    
+}
+
+#bdaydate{
+    margin: 0%; /*remove the space in between*/
+    background-color: #EFB0C9;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#headed {
+/*in a flex box disply, align, justify and flex direction often work together**/
+height: 260px;
+display: flex;
+align-items: center; /**this control item in cloumn top to bottom but changes when flex_direction is applied*/
+justify-content: start; /*from left to right& in btw but changes when flex_direction is applied*/
+flex-direction: column;
+}
+
+
+
+
+
+.gift-title {
+    margin-top: 150px;
+}
+
+.gift-hint {
+    margin-bottom: 5 px;
+}
+
+.gift-hint {
+    margin-top:  auto;
+}
+
+.gift-img {
+width: 400px;
+border: 5px solid white;
+border-radius: 10px;
+height: 400px;
+background-image: url(giphy.webp);
+background-size: cover;
+margin: 0 auto;
+}
+
+
+#gift-img-happy:hover {
+    /**used both id and class to make sure the hover only applies to an item
+    this was also effected on html*/
+    background-image: url(images/200.webp);
+}
+
+#gift-img-hot:hover {
+    /**used both id and class to make sure the hover only applies to an item
+    this was also effected on html*/
+    background-image: url(images/giphy\ 2.webp);
+}
+
+#gift-img-word:hover {
+    /**used both id and class to make sure the hover only applies to an item
+    this was also effected on html*/
+    background-image: url(images/200w\ \(1\).webp);
+}
+
+#gift-img-badass:hover {
+    /**used both id and class to make sure the hover only applies to an item
+    this was also effected on html*/
+    background-image: url(images/200w\ \(2\).webp);
+}
+
+#gift-img-rec:hover {
+    /**used both id and class to make sure the hover only applies to an item
+    this was also effected on html*/
+    background-image: url(images/200w\ \(3\).webp);
+}
+
+#gift-img-rec {
+    height: 200px;
+}
+
+
+.bdreact {
+    margin-top: 50px;
+}
+
+.space {
+margin-top: 50px;
+}
+
+#footer {
+    margin: 50px auto 20px auto;
+    text-align: center;
+    font-style: italic;
+    width: 400px;
+    font-weight: bold;
+}
+
+/*this is to target the element itself*/
+a {
+    color: white;
+}

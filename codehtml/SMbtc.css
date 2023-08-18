@@ -1,0 +1,12 @@
+
+.yes {
+ background-color: gray;
+ color: #222222;
+ width: 300px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 20px;
+ padding: 20px;
+ border: 4px solid #222222;
+ border-radius: 30px;
+}
