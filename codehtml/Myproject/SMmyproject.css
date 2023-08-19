@@ -1,0 +1,141 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto Slab', serif;
+background-color: whitesmoke;
+text-align: center;
+color: black;
+font-size: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin: 0px;
+padding: 0px;
+    
+}    
+
+
+.under{
+    background-color: #3298CD;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 6px 4px 6px 4px;
+    color: white;
+    text-shadow: 0px 5px 3px black;
+    font-size: larger;
+}
+
+.up {
+    background-color: #3298CD;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 6px 4px 6px 4px;
+    color: white;
+    text-shadow: 0px 5px 3px black;
+}
+
+.greet {
+    background-image: url(Myprojectimages/ibadan-one.jpeg);
+    margin-left: 0px;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 50vh;
+
+
+}
+
+
+.me {
+border-radius: 50%;
+width: 150px;
+height: 150px;
+object-fit: cover;
+}
+
+.years {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   
+}
+
+.put {
+    background-size: cover;
+    font-size: 18px;
+    background-position: center;
+    width: 100vw;
+    height: 60vh;
+    background: linear-gradient(lightskyblue, #D7C6D3)
+}
+
+#Ibadan{
+    text-shadow: 5px 2px 2px whitesmoke;
+    color: black;
+    
+}
+
+.like {
+    font-weight: bold;
+    font-size: 21px;
+
+}
+
+.far{
+    font-size: 15px;
+}
+.content{
+    flex: 1;
+    text-align: center;
+    padding: 20px; 
+}
+
+
+
+
+.thoght {
+    display: block;
+    margin-top: 7px;
+   
+   
+}
+
+.six{
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    margin: 40px auto 0px auto;
+    width: 450px;
+    text-align: center;
+    background: linear-gradient(#D7C6D3, #EB9D76);
+    color: black;
+    border-bottom: 6px solid #D7C6D3 ;
+}
+
+.gift-img{
+    background-image: url(Myprojectimages/unviel.webp);
+    width: 160px;
+border: 3px solid white;
+border-radius: 5px;
+height: 160px;
+background-size: cover;
+margin: 30px 5px 3px 0px;
+}
+
+#gift-img-happy:hover {
+    /**used both id and class to make sure the hover only applies to an item
+    this was also effected on html*/
+    background-image: url(Myprojectimages/bola_passport.jpeg);
+}
+
