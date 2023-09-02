@@ -1,0 +1,651 @@
+@font-face {
+    font-family:"Black";
+    src: url("SourceSansPro-Black.otf") format("opentye");
+    font-family: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BlackIt';
+    src: url("SourceSansPro-BlackIt.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url("SourceSansPro-Bold.otf");
+}
+
+@font-face {
+    font-family: 'BoldIt';
+    src: url("SourceSansPro-BoldIt.otf");
+}
+
+@font-face {
+    font-family: 'ExtraLight' ;
+    src: url("SourceSansPro-ExtraLight.otf");
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ExtraLightIt';
+    src: url("SourceSansPro-ExtraLightIt.otf");
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url("SourceSansPro-It.otf");
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url("SourceSansPro-Light.otf");
+}
+
+@font-face {
+    font-family: 'LightIt';
+    src: url("SourceSansPro-LightIt.otf");
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url("SourceSansPro-Regular.otf");
+}
+
+@font-face {
+    font-family: 'Semibold';
+    src: url("SourceSansPro-Semibold.otf");
+}
+
+@font-face {
+    font-family: 'SemiboldIt';
+    src: url("SourceSansPro-SemiboldIt.otf");
+}
+
+@font-face {
+    font-family: 'Awesome';
+    src: url("fa-brands-400.woff") format("opentye");
+}
+
+
+
+
+body{
+    top: 0px;
+    margin-left: 0px;
+    width: 1450px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+   
+        border: 1px solid gray;
+        margin-top: 0px; /* Center the container horizontally */
+      white-space: wrap;   
+    
+        margin: 0;
+        padding: 0;
+        
+
+      
+
+}
+
+
+.nav div {
+   margin: 5px 0;
+    height: 1px;
+   background-color: black;
+    border-radius: 25px;
+   
+   
+    
+
+}
+
+.nav{
+    width: 30px;
+    display: block;
+    margin: 1cm 0 0 1cm;
+   
+  
+}
+
+.one {
+    width: 25px;
+
+
+}
+
+.two{
+    width: 25px;
+}
+
+.three{
+    width: 25px
+}
+
+
+.wrapper
+{
+display: flex;
+height: 70px;
+width: 1373.18px;
+
+
+}
+
+.wrapper h3 {
+    font-weight: 2;
+    font-size: medium;
+    position: absolute;
+ 
+    left: 20px;
+    background: white 0% 0% no-repeat padding-box;
+    font: normal normal 300 17px/20px ExtraLight;
+    top: 15px;
+}
+
+.wrapper .nav{
+    position: relative;
+    top: -15px;
+    right: -1370px;
+    font: normal normal 300 17px/20px SemiboldIt;
+
+}
+
+.box{
+top: 200px ;
+left: 300px;
+width: 777px;
+height: 67px;
+background-color:#14CFAE;
+opacity: 1;
+
+position: relative;
+}
+
+.imag{
+ top: -230px;
+left: 350px;
+width: 313px;
+height: 313px;
+opacity: 1;
+background-repeat: no-repeat;
+position: relative;
+
+}
+
+.vsion{
+    display:flex
+
+
+}
+
+.dev{
+   
+text-align-last: right;
+font-size: 80px;
+top: 50%;
+right: 0px;
+transform: translate(-0, -00%);
+margin-right: 20px;
+font: normal normal normal 48px/67px Light;
+
+
+}
+
+.titlename {
+    position: relative;
+   
+    background-color: white;
+  
+}
+
+.titlename p {
+    position: absolute; /* Set the h3 to an absolute position within the container */
+    top: -40px; /* Adjust the top position as needed */
+    left: 730px; /* Adjust the left position as needed */
+    margin: 0; 
+    width: 218px;
+height: 103px;
+font: normal normal 300 72px/72px ExtraLight;
+letter-spacing: 0px;
+color: #303030;
+text-align: left;
+
+}
+
+.titlename h3 {
+    position: relative; /* Set the h3 to an absolute position within the container */
+    top: 50px; /* Adjust the top position as needed */
+    left: 730px; /* Adjust the left position as needed */
+    margin: 0; 
+    width: 218px;
+height: 103px;
+font: normal normal 300 72px/72px Bold;
+letter-spacing: 0px;
+color: #303030;
+text-align: left;
+margin-bottom: 60px;
+transform: translate(-0, 01%);
+white-space: nowrap;
+
+
+}
+
+.act{
+    margin-top: -80px;
+    height: 320px;
+    width: 1410px;
+    /*background-color: #000000;*/
+    transform: translate(-0, -30%); 
+  /*  background-size: cover;
+    right: 0%;
+    background-size: cover; /* Make the background image cover the entire container */
+ /* background-position: center; /* Center the background image */
+  /*background-repeat: no-repeat; 
+  background-position: center;*/
+  position: relative;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/foodelivery-73562.appspot.com/o/christopher-gower-m_HRfLhgABo-unsplash%402x.png?alt=media&token=07476d86-7229-4a15-9d03-a33e56327b87");
+  
+  background-color: black; /* Specify your background color with opacity */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFFFFF; /* Set text color to be visible against the background */
+
+  /* Add padding or adjust as needed to ensure text is readable */
+  padding: 20px;
+margin-left: 0;
+left: 0px; 
+
+}
+
+
+
+
+/*.act::before {
+    /*this up seperate the color and effect of background and image together**/
+    /*content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+    background-color: rgba(0, 0, 0, 0.3); /* Specify your background color with opacity */
+   
+
+
+.act .question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.act .question p 
+ {
+    color: #14CFAE;
+    z-index: 1; 
+    font: normal normal 900 50px/50px SemiBold;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 85px;
+    margin-top: 5px;
+
+}
+
+
+.designbox1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -90px;
+
+}
+
+
+.desingnbox2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    white-space: wrap;
+
+}
+
+.designbox2 h3{
+    top: 600px;
+    left: 267px;
+    width: 240px;
+    height: 35px;
+   margin-left: 50px;
+    font: normal normal 900 24px/24px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: -10px;
+}
+
+.designbox2 p{
+    top: 832px;
+    left: 239px;
+    width: 307px;
+    height: 143px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal 300 15px/24px ExtraLight;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+  
+.commerce h3{
+    top: 784px;
+left: 661px;
+width: 136px;
+height: 35px;
+margin-left: 80px;
+font: normal normal 900 24px/24px Source Sans Pro;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-bottom: -10px;
+}
+
+.commerce p{
+    top: 832px;
+left: 575px;
+width: 307px;
+height: 143px;
+text-align: center;
+font: normal normal 300 15px/24px ExtraLight;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.word h3{
+    top: 784px;
+left: 1003px;
+width: 116px;
+height: 35px;
+/* UI Properties */
+margin-left: 90px;
+font: normal normal 900 24px/24px Source Sans Pro;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-bottom: -10px;
+}
+
+.word p {
+    top: 832px;
+left: 905px;
+width: 307px;
+height: 143px;
+text-align: center;
+font: normal normal 300 15px/24px ExtraLight;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.work{
+    
+left: 625px;
+width: 190px;
+height: 36px;
+background: #16E0BD 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-top: -25px;
+margin-left: 600px;
+text-align: center;
+padding: auto;
+
+display: flex; /* Use flexbox */
+flex-direction: column; /* Arrange items vertically */
+
+justify-content: center; /* Center vertically */
+justify-content: center; /* Center vertically */
+align-items: center; /* Center horizontally */
+  
+ 
+
+}
+
+.work a{
+    
+    width: 98px;
+   
+    font: normal normal 900 16px/16px Source Sans Pro;
+    letter-spacing: 0.8px;
+    color: #333333;
+    opacity: 1;
+    padding: auto;
+    left: 100px;
+    color: black; /* Change the text color to white */
+    text-decoration: none; 
+   
+}
+
+.detail{
+    top: -130px ;
+    left: 0px;
+    width: 1450px;
+    height: 670px;
+    background-color:white ;
+    opacity: 1;
+    
+    position: relative;
+}
+
+.identityBlock .identity {
+   margin-top: 0px;
+   transform: translate(-0, 0200%); 
+   margin-left: 240px;
+
+
+font: normal normal 900 60px/60px Bold;
+letter-spacing: 0px;
+color: #303030;
+opacity: 1;
+white-space: nowrap;
+   
+ 
+  
+}
+
+.newblock{
+    margin-left: 200px;
+width: 956px;
+height: 67px;
+opacity: 1;
+background-color: #14CFAE;
+
+transform: translate(-0, 109%); 
+}
+
+.newblock .venue{
+padding-left: 50px;
+padding-top: 25px;
+padding-bottom: auto;
+font: normal normal normal 24px/24px light;
+letter-spacing: 0px;
+color: #303030;
+opacity: 1;
+}
+
+.picsBox{
+    display: flex;
+}
+
+
+.picsBola{
+    width: 264px;
+height: 406px;
+margin-left: 830px;
+top: -80px;
+opacity: 1;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.box2 {
+  
+    min-width: 428px;
+    height: 300px;
+    opacity: 1;
+    background-color: white;
+    
+    position: relative;
+    right: 850px;
+    transform: translate(-0, 30%);  
+}
+
+
+.box2 p{
+    text-align: left;
+font: normal normal 300 14px/16px light;
+letter-spacing: 0px;
+color: #303030;
+opacity: 1;
+
+
+}
+
+.range {
+    min-width: 428px;
+    height: 770px;
+    opacity: 1;
+    background-color: #2E2E2E;
+    right: 850px;
+    transform: translate(-0, -25%);  
+}
+
+.range h3 {
+    text-align: center;
+    font: normal normal 900 60px/60px Bold;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+   padding-top: 80px;
+}
+
+.range p{
+    text-align: center;
+    font: normal normal 900 24px/24px Bold;
+    letter-spacing: 0px;
+    opacity: 1;
+margin-top: -40px;
+color: #16E0BD;
+}
+
+.workPicsBlock{
+    display: flex;
+    margin-top: -750px;
+    position: relative;
+    left: 210px;
+    width: 200px;
+height: 200px;
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.workPicsBlock2{
+    display: flex;
+    margin-top: 0px;
+    position: relative;
+    left: 210px;
+    width: 200px;
+height: 200px;
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.box3{
+     
+position: relative;
+min-width: 1450px;
+min-height: 252px;
+background: #141414 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+
+.mail{
+    text-align: center;
+    position: relative;
+    top: 75px;
+  
+  
+    font: normal normal 900 24px/24px SemiBold;
+    letter-spacing: 0px;
+    color: #16E0BD;
+    opacity: 1;
+  
+   
+}
+
+.logoContainer{
+    display: flex;
+    position: relative;
+    align-content: center;
+    align-items: center ;
+    
+top: 75px;
+
+font: normal normal normal 24px/24px Font Awesome 5 Brands;
+letter-spacing: 0px;
+color: #16E0BD;
+opacity: 1;
+max-width: 80%;
+}
+
+.logoContainer .logo1{
+  align-items: center;
+  justify-content: center;
+ padding-left: 550px;
+ padding-right: 63px;
+ width: 40px;
+ height: 40px;
+
+
+  }
+ 
+  .logoContainer .logo2{
+    margin: 0 0px;
+    padding-right: 63px;
+    color: #16E0BD;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .logoContainer .logo3{
+    margin: 0 0px;
+    padding-right: 63px;
+    color: green;
+    width: 40px;
+    height: 40px;
+   
+  }
+  
+  .logoContainer .logo4{
+    margin: 0 0px;
+    width: 40px;
+    height: 40px;
+    color: green;
+   
+  }
+  
